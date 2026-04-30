@@ -1,6 +1,7 @@
 # NIFTY-50-Time-Series-Forecasting-using-LSTM
 
-##Project Overview
+## Project Overview
+
 This project implements a multi-output time series forecasting model using LSTM networks to predict stock market behaviour from the NIFTY-50 dataset.
 
 The model learns patterns from historical stock data and forecasts multiple financial features for the next 5 days based on past observations.
