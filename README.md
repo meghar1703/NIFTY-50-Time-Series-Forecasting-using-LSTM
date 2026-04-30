@@ -176,28 +176,6 @@ The model predicts **next 5 days of stock behavior**, including:
 ├── notebook.ipynb        # Main implementation
 ├── README.md             # Project documentation
 ```
-
----
-
-## How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/nifty50-lstm-forecasting.git
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the notebook:
-
-   * Open Jupyter Notebook / VS Code
-   * Execute all cells
-
 ---
 
 ## Conclusion
