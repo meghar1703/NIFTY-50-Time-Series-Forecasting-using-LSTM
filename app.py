@@ -87,7 +87,7 @@ if uploaded_file:
         dtype=torch.float32
     )
 
-    class RNNModel(nn.Module):
+   class RNNModel(nn.Module):
     def __init__(self):
         super().__init__()
 
@@ -108,15 +108,8 @@ if uploaded_file:
     def forward(self, x):
         out, _ = self.rnn(x)
         out = out[:, -1, :]
-        out = self.fc(out)
-
-        return out.view(
-            -1,
-            self.output_steps,
-            self.num_features
-        )
-
-model = RNNModel()
+        out = self.fc
+        
 
     model.load_state_dict(
         torch.load(
